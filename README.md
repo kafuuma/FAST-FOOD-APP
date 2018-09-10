@@ -1,5 +1,7 @@
 
 # Fast-food-fast-application
+This is a fast food delivery application for a fast food restaurent created\
+during Andela Bootcamp check [HERE]( https://kafuuma.github.io/FAST-FOOD-APP/)
 
 ### Challenge1 features
 
@@ -13,7 +15,8 @@
   * Mark orders as completed
 6. A user should be able to see a history of ordered food
 ## Developer
-- _**arkafuuma@gmail.com**_ 
+- _**arkafuuma@gmail.com**_
+- _**@henryKafuuma**_
 
 
 
