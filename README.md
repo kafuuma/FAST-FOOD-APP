@@ -1,7 +1,7 @@
 
 # Fast-food-fast-application
 This is a fast food delivery application for a fast food restaurent created\
-during Andela Bootcamp check [HERE]( https://kafuuma.github.io/FAST-FOOD-APP/)
+during Andela Bootcamp check [HERE]( https://kafuuma.github.io/FAST-FOOD-APP/UI/signup.html)
 
 ### Challenge1 features
 
