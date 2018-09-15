@@ -26,6 +26,12 @@ body{
     margin-top: -6px;
 }
 
+.nav-bar img:hover{
+    height: 48px;
+    width: 48px;
+    position: absolute;
+}
+
 .nav-bar input{
     padding: 21px;
     margin: 23px;
@@ -51,6 +57,10 @@ body{
     font-weight: bolder;
 }
 
+.nav-bar div, a:hover{
+    color: orangered;
+}
+
 .mobile-app {
     background-color:orangered;
     padding: 10px;
@@ -73,6 +83,10 @@ body{
     margin-bottom: 22px;
 }
 
+.login:hover{
+    color: white;
+}
+
 .login-1{
     background-color: orangered;
     padding-left: 34px;
@@ -85,6 +99,10 @@ body{
     margin-top: 19px;
     margin-right: 40px;
     margin-bottom: 22px
+}
+
+.login-1:hover{
+    color: white;
 }
 
 .cat-image{
@@ -156,6 +174,11 @@ a{
 
 }
 
+.menu ul li:hover{
+    border-bottom:3px solid rgb(255, 102, 0);
+
+}
+
 .login-block-1{
     display: block;
     background-color: white;
@@ -198,6 +221,7 @@ a{
     font-size: 38px;
 }
 
+
 .log-button div{
     border-left: 1px solid black;
 }
@@ -210,6 +234,7 @@ input[type="password"]{
     margin-left: 46px;
     margin-bottom: 22px;
 }
+
 
 input[type = "button"]{
     padding: 11px;
@@ -224,12 +249,23 @@ input[type = "button"]{
     border: none;
 }
 
+input[type="button"]:hover{
+    background-color: rgb(255, 102, 0);
+
+}
+
 .log-button #signin{  
     display: inline;
     margin-right: -29px;
     margin-left: -2px;
     font-family: sans-serif;
-    color: #827b7b
+    color: #827b7b;
+    
+}
+
+.log-button #signin:hover{
+    color: orangered;
+   
 }
     
 .log-button #signup{
@@ -238,6 +274,13 @@ input[type = "button"]{
     margin-left: 81px;
     font-family: sans-serif;
     color: #827b7b;
+    
+  
+}
+
+.log-button #signup:hover{
+    color: orangered;
+  
 }
 
 footer{
@@ -318,7 +361,10 @@ ul li{
   
     margin-top: 46px;
     margin-left: 30px;
-    color: #464613
+    color: #464671;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
 }
 
 
