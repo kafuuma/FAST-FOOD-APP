@@ -9,17 +9,15 @@
     </head>
 <body>
     <nav class="nav-bar">
-        <img src="UI/images/logo.svg" alt="Logo" height="100px" width="100px">
+        <img img class="logo" src="UI/images/logo2.jpeg" alt="Logo" height="100px" width="100px">
         <input type="search" id = "search" placeholder="search..">
         <a href="#">HELP</a>
-        <a  class="login" href="#" id = "log-in">LOGIN/SIGNUP</a>      
+        <a class="login" id="log" onclick="showLogin()">LOGIN</a>
+        <a class="login" id="log" onclick="showSignUp()">SIGNUP</a>      
     </nav>
-    <div class = "login-block-1" id="login-block">
-        <div class="log-button">
-            <a href="#" id="signin">sign in</a>
-            <a href="#" id="signup">sign up</a>
-        </div>
-        <form action="#" method="POST">
+    <div class = "login-block-1" id="log1">
+       
+        <form action="UI/user_order.html" method="POST">
             <div class="field" >
                 <input type="text" name="name" placeholder="full name">
             </div>
@@ -30,19 +28,19 @@
                 <input type="email" name="email" placeholder="email@gmail.com">
             </div>
             <div class="field" >
+                <input type="password" name="password" placeholder="password">
+            </div>
+            <div class="field" >
                 <input type="password" name="password" placeholder="confirm password">
             </div>
             <div class="field" >
-                <input type="button" value="CREATE ACOUNT">
+                <input type="submit" value="CREATE ACOUNT">
             </div>
         </form>
     </div> 
-    <div class = "login-block-2" id="login-block">
-        <div class="log-button">
-            <a href="#" id="signin">sign in</a>
-            <a href="#" id="signup">sign up</a>
-        </div>
-        <form action="#" method="POST">  
+    <div class = "login-block-2" id="log2">
+       
+        <form action="UI/user_order.html" method="POST">  
             <div class="field" >
                 <input type="text" name="name" placeholder="username">
             </div>
@@ -53,7 +51,7 @@
                 <input type="password" name="password" placeholder="password">
             </div>
             <div class="field" >
-                <input type="button" value="LOGIN">
+                <input type="submit" value="LOGIN">
             </div>
         </form>
     </div>
@@ -216,5 +214,6 @@
             &copy; Copyright 2018 Fast foods Inc. 
         </p>       
      </footer>
+     <script type="text/javascript" src="UI/static/script.js"></script>
 </body>
 </html>
