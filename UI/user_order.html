@@ -5,33 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="static/style.css">
+    <script type="text/javascript" src="static/script.js"></script>
     <title>Fast Food App</title>
 </head>
 <body>
     <nav class="nav-bar">
-        <img src="images/logo.svg" alt="Logo" height="100px" width="100px">
+        <img img class="logo" src="images/logo2.jpeg" alt="Logo" height="100px" width="100px">
         <input type="search" id = "search" placeholder="search..">
-        <a href="#">HISTORY</a>
-        <a class= "cat-image" href="#"><img src="images/empty-cart.svg" 
+        <a class= "cat-image" id="cart"><img src="images/empty-cart.svg" 
             alt="" height="50px" width="50px"> </a>
-        <a class="login-1" href="#" id = "log-in">LOGOUT</a>
+        <a href="user_history.html">HISTORY</a>
+        <a class="login-1" href="signup.html" id = "log-in">LOGOUT</a>
     </nav>
-    <div class = "cat-box" id="cat-box">
-        <div id="cat-info">
-            <h1>Delivery in 30 minutes</h1>
+    <form action="user_history.html" id="cat_log" method="POST">
+        <div class = "cat-box hidden" id="cat-box">
+            <div id="cat-info">
+                <h1>Delivery in 30 minutes</h1>
+            </div>
+            <div id="cat-log">
+                <img src="images/empty-cart.svg" alt="cat-logo" height="100px" width="100px">
+            </div>
+            <div id = "cat-text">
+                </h1>Order your favourite dishes</h1>
+            </div>   
+            <div id="field" >
+                <input type="submit" value="Add to cart">
+            </div>
         </div>
-        <div id="cat-log">
-            <img src="images/empty-cart.svg" alt="cat-logo" height="100px" width="100px">
-        </div>
-        <div id = "cat-text">
-            </h1>Order your favourite dishes</h1>
-        </div>   
-        <div id="field" >
-                <input type="button" value="Add to cart">
-        </div>
-    </div>
+    </form> 
     <div class="hello-img">
-        <h1>World class food</h1>
     </div>
     <div class="menu">
         <ul>
